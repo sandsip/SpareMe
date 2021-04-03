@@ -1,0 +1,166 @@
+﻿.idx_crd {
+    width: 100%;
+    height: auto; /*310px;*/
+    margin: 0px auto 24px;
+    position: relative;
+    box-shadow: 0 0 5px 0 #CCC;
+    padding: 10px;
+}
+
+    .idx_crd .shad {
+        width: 100%;
+        height: 160px;
+        opacity: .95;
+        filter: alpha(opacity=95);
+        background: #f9f9f9;
+    }
+
+.shad {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #FFF;
+}
+
+.usrimg {
+    position: absolute;
+    height: 160px;
+    width: 160px;
+}
+
+    .usrimg .icon {
+        width: 150px;
+        height: 150px;
+        display: table;
+        text-align: center;
+        vertical-align: middle;
+        margin: 7px 0 0 7px;
+        position: relative;
+        border: 1px solid #DDD;
+    }
+
+    .usrimg .edit_icn {
+        background-color: #FFF;
+        display: none;
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        top: 0;
+        right: 0;
+        border: 1px solid #CCC;
+        border-radius: 2px;
+        box-shadow: 0 2px 3px 0 #ccc;
+        z-index: 10;
+    }
+
+        .usrimg .edit_icn .imgbin {
+            margin-left: -85px;
+        }
+
+.imgbin {
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 130px;
+    height: 26px;
+    Opacity: 0;
+    filter: alpha(opacity = 0);
+    background-color: transparent;
+    cursor: pointer;
+    margin-left: -35px;
+}
+
+.usrimg .cll {
+    display: table-cell;
+    height: 150px;
+    vertical-align: middle;
+}
+
+.usrimg .acts {
+    bottom: 1px;
+    left: 1px;
+    width: 150px;
+}
+.acts {
+    display: none;
+    position: absolute;
+    z-index: 100;
+}
+
+.usrimg img {
+    max-width: 150px;
+    max-height: 150px;
+    margin-bottom: -2px;
+}
+.usrinfo {
+    position: absolute;
+    top: 15px;
+    left: 170px;
+    font-size: 14px;
+}
+
+.ovly_upnl {
+    display: none;
+}
+
+
+.usrbio {
+    position: absolute;
+    right: 20px;
+    top: 55px;
+    font-size: 14px;
+    line-height: 18px;
+    max-width: 550px;
+}
+
+.usrbio .edit_icn {
+    background-color: #FFF;
+    display: none;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 0;
+    right: 0;
+    border: 1px solid #CCC;
+    border-radius: 2px;
+    box-shadow: 0 2px 3px 0 #ccc;
+    z-index: 10;
+}
+
+.usrbio .cntnt {
+    padding: 6px 0 6px 6px;
+    word-wrap: break-word;
+    border: 1px solid transparent;
+}
+
+.usrbio .bio {
+    position: relative;
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 0;
+}
+
+.ph {
+    color: #999;
+}
+
+.shrtct {
+    position: relative;
+    top: 20px;
+}
+
+.fr {
+    float: right;
+}
+
+.shrtct .each {
+    padding: 0 20px 0 0;
+}
+
+.shrtct a {
+    color: #0654ba !important;
+}
+
+.fl {
+    float: left;
+}
