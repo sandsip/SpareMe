@@ -5,7 +5,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <script lang="JavaScript">
+    <%--<script lang="JavaScript">
         function redirectHttpToHttps() {
             if (window.location.protocol == "http:") {
                 var httpURL = window.location.hostname + window.location.pathname + window.location.search;
@@ -19,7 +19,7 @@
             }
         }
         redirectHttpToHttps();
-    </script>
+    </script>--%>
     <meta name="theme-color" content="#ec1d27" />
     <link rel="icon" href="images/favicon.png" type="image/x-icon" />
 

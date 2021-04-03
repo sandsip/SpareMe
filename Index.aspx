@@ -4,7 +4,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head runat="server">
-    <%--<script lang="JavaScript">
+    <%-- on only in live <script lang="JavaScript">
         function redirectHttpToHttps() {
             if (window.location.protocol == "http:") {
                 var httpURL = window.location.hostname + window.location.pathname + window.location.search;
